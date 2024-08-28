@@ -9,9 +9,10 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-image: url('https://source.unsplash.com/1600x900/?health,medicine');
+            background-image: linear-gradient(to bottom right, #6a11cb, #2575fc), url('https://source.unsplash.com/1600x900/?medicine,document');
             background-size: cover;
             background-position: center;
+            background-blend-mode: overlay;
             color: #ffffff;
             margin: 0;
             display: flex;
@@ -21,7 +22,7 @@
         }
 
         .container {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.6);
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -35,12 +36,17 @@
             margin-bottom: 20px;
         }
 
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
         button {
             padding: 15px 30px;
             font-size: 1.2rem;
             font-weight: bold;
             color: #ffffff;
-            background-color: #007bff;
+            background-color: #28a745;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -49,7 +55,7 @@
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: #218838;
         }
     </style>
 </head>
